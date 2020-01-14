@@ -1,0 +1,93 @@
+.inputbar{
+    position: relative;
+    color: white;
+    border: solid white 1px;
+    box-sizing: border-box;
+    width: 60vw;
+    height: 20vh;
+    float: bottom;
+    clear: both;
+}
+.inputbar div{
+    height: 20%;
+}
+.inputbar input{
+    position: absolute;
+
+ }
+
+#title{
+    top: 2px;
+    left: 45px;
+}
+#start-m{
+    top: 20%;
+    left: 85px;
+    width: 20px;
+}
+.s-tip-m{
+    position: absolute;
+    top: 20%;
+    left: 110px;
+}
+#start-d{
+    top: 20%;
+    left: 160px;
+    width: 20px;
+}
+.s-tip-d{ 
+    position: absolute;
+    top: 20%;
+    left: 185px;
+}
+#end-m{
+    top: 40%;
+    left: 85px;
+    width: 20px;
+}
+
+.e-tip-m{
+    position: absolute;
+    top: 40%;
+    left: 110px;
+}
+#end-d{
+    top: 40%;
+    left: 160px;
+    width: 20px;
+}
+.e-tip-d{
+    position: absolute;
+    top: 40%;
+    left: 185px;
+}
+#content{
+    top: 60%;
+    left: 68px;
+}
+#type{
+    top:80%;
+    left: 50px;
+}
+.button{
+      position: absolute;
+    left: 50%;
+    border:2px solid white;
+    padding: 2px;
+    text-align: center;
+    color: white;
+    width: 20%;
+}
+.button:hover{
+    cursor: pointer;
+    box-shadow: inset 0 -2px 5px white ,
+                inset 0  2px 5px  white;
+}
+#btn1{
+    right: 0;
+    top: 20%;
+}
+#btn2{
+    top: 50%;
+    right: 0;
+}
