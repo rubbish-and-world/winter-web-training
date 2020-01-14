@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="styles/index.css" type="text/css" rel="stylesheet">
+        <link href="styles/task.css" type="text/css" rel="stylesheet">
+        <link href="styles/inputbar.css" type="text/css" rel="stylesheet">
+        <title>todo-list</title>
+    </head>
+    <body>
+
+        
+        
+        <div class="container">
+
+        <div class="will list">
+        
+        <div class="name">Will</div>
+        <div class="task">
+            <input type="checkbox" onclick="del()">
+            <div id="id">0</div>
+            <div class="title">homework</div>
+            <div class="start">start-time</div>
+            <div class="end">end-time</div>
+            <div class="content" onclick="modify()">content</div>
+            <div class="type">A</div>
+
+        </div>
+
+
+
+
+        </div>
+        <div class="doing list">
+            <div class="name">Doing</div>
+
+        </div>
+        <div class="done list">
+            <div class="name">Done</div>
+
+        </div>
+        <div class="overtime list">
+            <div class="name">OverTime</div>
+
+        </div>
+
+        <div class="inputbar">
+           
+           
+            <div class="title-i">Title:</div>
+            <input id="title" type="text">
+
+            <div class="start-i">Start-time:</div>
+            <input id="start-m" type="text"maxlength="2">
+            <div class="s-tip-m">month</div>
+            <input id="start-d" type="text"maxlength="2">
+            <div class="s-tip-d">day</div>
+            
+
+            <div class="end-i">End-time:</div>
+            <input id="end-m" type="text" maxlength="2">
+            <div class="e-tip-m">month</div>
+            <input id="end-d" type="text"maxlength="2">
+            <div class="e-tip-d">day</div>
+
+            <div class="content-i">Content:</div>
+            <input id="content" type="text">
+            
+            <div class="type-i">Type:</div>
+            <input id="type" type="text">
+
+            <div id="btn1" class="button">Confirm</div>
+            <div id="btn2" class="button">Cancel</div>            
+        </div>
+
+
+        </div>
+        
+
+        <input type="text" class="modifybox">
+
+        
+    </body>
+    <script src="scripts/button.js">
+    </script>
+</html>

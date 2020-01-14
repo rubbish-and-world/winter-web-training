@@ -1,0 +1,16 @@
+.task{
+    position: relative;
+    margin: 5px;
+    width: 98%;
+    box-sizing: border-box;
+    border: solid white 3px;
+    border-radius: 5%;
+    color: white;
+    overflow-x: scroll;
+}
+.task input{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    display: inline;
+}
